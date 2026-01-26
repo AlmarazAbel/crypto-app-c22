@@ -12,12 +12,16 @@ footer {
   text-align: left;
   font: size 18px;
 }
-img {
+.img-footer {
   object-fit:cover;
   width: 100%;
   text-align: center;
-
 }
+.img-carousel{
+  height: 250px;
+  object-fit: cover;
+}
+
 .fuente {
   font-family: "Black Han Sans", sans-serif;
   font-weight: 400;
@@ -25,11 +29,31 @@ img {
 
 }
 
-/*para tablet hasta 991*/
+
 @media (width <= 767px ) {
 
     div{
     text-align:center;
 }
 a{text-align: center;}
+}
+
+/*para dispositivos tablet*/
+@media (width>= 768px ) {
+  .img-carousel{
+    height: 350px;
+    
+  }
+ 
+}
+/*para dispositivos lg*/
+@media (width>= 992px ) {
+  .img-carousel{
+    height: 500px;
+    object-position: bottom;
+    
+  }
+  .img-carousel-celular{
+    object-position: 50% 80%;
+  }
 }
