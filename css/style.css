@@ -14,7 +14,7 @@ footer {
 }
 .img-footer {
   object-fit:cover;
-  width: 100%;
+  width: 90%;
   text-align: center;
 }
 .img-carousel{
@@ -33,6 +33,7 @@ footer {
   filter: invert(1);
 }
 
+
 @media (width <= 767px ) {
 
     div{
@@ -48,6 +49,7 @@ a{text-align: center;}
     
   }
  
+ 
 }
 /*para dispositivos lg*/
 @media (width>= 992px ) {
@@ -59,4 +61,5 @@ a{text-align: center;}
   .img-carousel-celular{
     object-position: 50% 80%;
   }
+  
 }
